@@ -2,7 +2,8 @@ class Solution {
 public:
     
     static bool comp( pair<string, int> a,  pair<string, int> b) {
-             return a.second > b.second || a.second==b.second && a.first<b.first;
+             return a.second > b.second || a.second==b.second && a.first<b.first; //  a.second > b.second for decending puprose equivalent greater() function for sort 
+            //sort(a,b, greater<int>()); 
     }
     
     vector<string> topKFrequent(vector<string>& words, int k) {
@@ -14,7 +15,6 @@ public:
         }
         for(auto j:mp1){
                  v1.push_back({j.first, j.second});
-
         }
         
         sort(v1.begin(), v1.end(), comp);
