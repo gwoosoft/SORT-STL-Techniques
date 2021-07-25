@@ -8,18 +8,20 @@ I upload this source code for me to memorize the syntax of how to use sort STL t
 I do not usually memorize a code but sometimes some STL we have to know the syntax, and know how to apply it otherwise it would be too consuming to implement. 
 
 
-For LEETCODE QUESTION 692
+#For LEETCODE QUESTION 692
 
-Given a non-empty list of words, return the k most frequent elements.
+#Given a non-empty list of words, return the k most frequent elements.
 
-Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.
+#Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.
 
-Example 1:
+#Example 1:
 Input: ["i", "love", "leetcode", "i", "love", "coding"], k = 2
 Output: ["i", "love"]
 Explanation: "i" and "love" are the two most frequent words.
     Note that "i" comes before "love" due to a lower alphabetical order.
-Example 2:
+    
+    
+#Example 2:
 Input: ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
 Output: ["the", "is", "sunny", "day"]
 Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
